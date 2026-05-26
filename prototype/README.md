@@ -4,6 +4,12 @@ This is a standalone mobile-first prototype for The Empty Fifth Chair. It uses s
 
 Open `index.html` in a browser, or serve this directory with any static file server.
 
+From the repo root, run the smoke test with:
+
+```powershell
+node prototype/smoke-test.mjs
+```
+
 Prototype coverage:
 
 - Frame, Loop, Threadline, Blink, and Report surfaces.
@@ -16,3 +22,4 @@ Prototype coverage:
 Current limitation:
 
 - Media is represented with authored placeholders, not final generated assets.
+- The smoke test expects a local Chrome or Edge install.
