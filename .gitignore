@@ -1,0 +1,7 @@
+# Swift build outputs
+.build/
+swift/**/.build/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
